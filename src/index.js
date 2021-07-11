@@ -38,7 +38,7 @@ const MORSE_TABLE = {
 };
 
 /*
-function decode(expr) {
+function encode(expr) {
   let point = "10";
   let dash = "11";
   let stars = "**********";
@@ -111,8 +111,6 @@ function decode(expr) {
 
   return morse;
 }
-
-//console.log(decode("0000001111**********0000000010"));
 
 module.exports = {
   decode,
